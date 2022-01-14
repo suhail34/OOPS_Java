@@ -27,7 +27,9 @@ public class Constructor1 {
         Call c1 = new Call(5, 6);
         c1.change();
         Call c2 = new Call(7, 3);
+
         Call c3 = new Call(8, 4);
+//        System.out.println(Call.counter);
 //        c2.change();
 //        c1.counter = 4;
 
