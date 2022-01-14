@@ -5,8 +5,13 @@ class Call{
     static int _2nd;
     static int counter = 0;
 
+    Call(){
+        counter  = 0;
+    }
+
     Call(int a, int b){
-        _1st = a;
+        this();//it will Call the constructor with no parameter
+        _1st = a;// and initialize counter to 0 every time an object is created
         _2nd = b;
         counter++;
         System.out.println("Counter is : "+ counter);
