@@ -5,9 +5,9 @@ public class Student {
     int rollNo;
     String name;
 
-    void insertRecord(int r, String n){
-        rollNo = r;
-        name = n;
+    void insertRecord(int rollNo, String name){
+        this.rollNo = rollNo;
+        this.name = name;
     }
 
     void displayDetails(){
