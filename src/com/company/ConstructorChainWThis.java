@@ -26,8 +26,8 @@ class Chain{
 
 public class ConstructorChainWThis {
     public static void main(String[] args) {
-        Chain c1 = new Chain(4, 5);
-        Chain c2 = new Chain(6, 3, 8);
+        Chain c1 = new Chain(4, 6);
+        Chain c2 = new Chain(11, 8, 8);
 
         c1.avg();
         c2.avg();
