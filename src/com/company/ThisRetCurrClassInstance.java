@@ -12,6 +12,7 @@ class Return{
 public class ThisRetCurrClassInstance {
     public static void main(String[] args) {
         Return r = new Return();
-        r.msg();
+        System.out.println(r);
+        r.msg();                //this returns the same reference ID as the above print statement
     }
 }
