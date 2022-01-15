@@ -4,7 +4,7 @@ class Human{
     static String needs = "Food Shelter and Clothes";
 
     void displayInfo(int age, String fullName){
-        System.out.println("Full Name : "+fullName+"Age : "+age);
+        System.out.println("Full Name : "+fullName+" ,Age : "+age);
         System.out.println("Basic Needs are :  "+needs);
     }
 }
@@ -23,5 +23,6 @@ class Suhail extends Human{
 public class SingleTest {
     public static void main(String[] args) {
         Suhail s1 = new Suhail(20, "Suhail Khan");
+        s1.displayInfo(20, "Talha Ansari");
     }
 }
