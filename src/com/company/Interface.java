@@ -17,8 +17,8 @@ class Operation implements Implement{
 
 public class Interface {
     public static void main(String[] args) {
-        Operation o1 = new Operation();
-        System.out.println(o1.sum(5, 4));
-        System.out.println(o1.subtract(9, 2));
+        Implement i1 = new Operation();
+        System.out.println(i1.sum(5, 4));
+        System.out.println(i1.subtract(9, 2));
     }
 }
