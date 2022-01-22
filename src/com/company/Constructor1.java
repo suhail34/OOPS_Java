@@ -25,6 +25,10 @@ class Call{
     int sum(){
         return _1st + _2nd;
     }
+    static {
+        System.out.println("hello");
+    }
+//    static block gets executed first at the time of class Loading
 }
 
 public class Constructor1 {
