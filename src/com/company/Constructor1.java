@@ -4,7 +4,7 @@ class Call{
     int _1st;
     static int _2nd;
     static int counter = 0;
-
+//  if we provide explicitly a return type to the constructor the compiler will treat it as a method
     Call(){
         counter  = 0;
     }
