@@ -1,7 +1,5 @@
 package com.company;
 
-import javax.lang.model.element.Name;
-
 class Employee{
     private int emp_id;
     private String name;
@@ -39,7 +37,7 @@ public class Encapsulation {
         emp2.setAcct_no(204994504);
         emp2.setName("XYZ");
 
-        System.out.println(emp1.getEmp_id()+" "+emp1.getName()+" "+emp1.getName());
+        System.out.println(emp1.getEmp_id()+" "+emp1.getName()+" "+emp1.getAcct_no());
         System.out.println(emp2.getEmp_id()+" "+emp2.getName()+" "+emp2.getAcct_no());
     }
 }
