@@ -6,9 +6,12 @@ public class StringBuff {
         StringBuffer str = new StringBuffer("Hello");
         StringBuffer str1 = new StringBuffer(2);
         StringBuffer str2 = new StringBuffer();
+        str1.append("Hello");
+        str2.append("Hello");
 //        StringBuffer class initial capacity is 16 and when strings content increases from 16 then the capacity gets
 //        increased by (oldcapacity*2) + 2
-
+        System.out.println(str1.capacity());
+        System.out.println(str1.equals(str2));
         System.out.println(str.capacity());
         System.out.println(str.append(" World"));
         System.out.println(str.length());
