@@ -3,6 +3,7 @@ package com.company.strings;
 public class StringBuff {
     public static void main(String[] args) {
 //        StringBuffer are mutable
+//        Use when thread safety is required
         StringBuffer str = new StringBuffer("Hello");
         StringBuffer str1 = new StringBuffer(2);
         StringBuffer str2 = new StringBuffer();

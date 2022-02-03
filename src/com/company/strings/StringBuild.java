@@ -2,6 +2,7 @@ package com.company.strings;
 
 public class StringBuild {
     public static void main(String[] args) {
+//        use when no thread safety is required
         StringBuilder str = new StringBuilder("Java is a Object Oriented");
         StringBuilder str1 = new StringBuilder(8);
         StringBuilder str2 = new StringBuilder();
